@@ -7,7 +7,7 @@ Na função main:
     2. O compilador atribuiu valores para essas variáveis. Como esses valores se chamam?
 */
 
-package exercicio_02
+package main
 
 import (
 	"fmt"
@@ -18,7 +18,7 @@ var x int
 var y string
 var z bool
 
-func exercicio_02() {
+func main() {
 	fmt.Printf("%v\n, %v\n, %v\n", x, y, z)
 	resposta := "Resposta Questao 2: os valores são chamados de zeros"
 	fmt.Printf("\n%v", resposta)

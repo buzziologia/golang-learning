@@ -12,7 +12,7 @@
           3. Demonstre o tipo de "y"
 */
 
-package exercicio_05
+package main
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ type my_var int
 var x my_var
 var y int
 
-func exercicio_05() {
+func main() {
 	fmt.Println(x)
 	x = 42
 	fmt.Printf("%T\n", x)
