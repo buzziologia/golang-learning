@@ -7,7 +7,7 @@ Na função main:
     4. Demonstre o valor da variável "x
 */
 
-package main
+package exercicio_04
 
 import (
 	"fmt"
@@ -17,9 +17,13 @@ type my_var int
 
 var x my_var
 
-func main() {
+func exericio_04() {
 	fmt.Println(x)
 	x = 42
 	fmt.Printf("%T\n", x)
 	fmt.Printf("%v", x)
+}
+
+func main() {
+	exercicio_01()
 }

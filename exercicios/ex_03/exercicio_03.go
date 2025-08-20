@@ -8,7 +8,7 @@
        2. Demonstre a variável "s".
 */
 
-package main
+package exercicio_03
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ var x int = 41
 var y string = "James Bond"
 var z bool = true
 
-func main() {
+func exercicio_03() {
 	s := fmt.Sprintf("%v\n%v\n%v", x, y, z)
 	fmt.Println(s)
 }

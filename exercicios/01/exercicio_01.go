@@ -18,7 +18,7 @@ var x int
 var y string
 var z bool
 
-func main() {
+func exercicio_01() {
 	x = 42
 	y = "James Bond"
 	z = true
