@@ -1,4 +1,4 @@
-/*Escreva expressões utilizando os operadores, e atribua seus valores a variáveis.*/
+/*Escreva expressões utilizando os operadores*/
 
 package main
 
