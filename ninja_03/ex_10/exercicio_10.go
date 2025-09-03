@@ -8,14 +8,16 @@ Ninja nível 3! Parabéns! */
 
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
-	fmt.Println(true && true)  // true
-	fmt.Println(true && false) // false
-	fmt.Println(true || true)  // true
-	fmt.Println(true || false) // true
-	fmt.Println(!true)         // false
+	// remova os comentarios para funcionar
+
+	/*
+
+		fmt.Println(true && true)  // true
+		fmt.Println(true && false) // false
+		fmt.Println(true || true)  // true
+		fmt.Println(true || false) // true
+		fmt.Println(!true)         // false
+
+	*/
 }
