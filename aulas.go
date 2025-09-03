@@ -1,6 +1,11 @@
 /*arquivo destino para acompanhar o desenvolvimento das aulas, para acessar o conteúdo individual das aulas visualize o historico de modificacoes realizadas
  */
 
+/*
+ Declaracao switch é como se fosse um if com varios casos diferentes.
+ ele avalia questoes e executa de cima pra baixo e todas que estiverem corretas tbm.
+*/
+
 package main
 
 import (
@@ -8,11 +13,19 @@ import (
 )
 
 func main() {
-	y := 24
-	x := y << 2
-	z := y >> 2
+	x := 10
 
-	fmt.Printf("%b\n", x)
-	fmt.Printf("%b\n", y)
-	fmt.Printf("%b\n", z)
+	switch true {
+	case x < 5:
+		fmt.Println("x é menor que ")
+	case x == 5:
+		fmt.Println("x é igual a 5")
+	case x > 5:
+		fmt.Println("x é maior que 5")
+	}
+
+	if (x == 5) == true {
+		fmt.Println("x é igual a 5")
+	}
+
 }
