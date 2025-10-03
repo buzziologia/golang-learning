@@ -1,0 +1,35 @@
+uint8   -> the set of all unsigned 8bit integers (0 to 255)
+uint16  ->
+
+int8    -> the set of all signed 8bit integers (-128 to 127)
+int16
+
+float 32 -> the set of all IEEE-754 32bit floating-point numbers  
+
+complex64 ->
+
+Tipos são unicos
+    - Golang é uma linguagem estática
+    - int e int32 não são a mesma coisa
+    # regra geral -> usar apenas int (computador escolhe qual o melhor)
+    # regra geral -> usar apenas float64
+
+Strings são imutaveis
+
+### Constantes
+    - são valores imutáveis
+
+
+### Iota
+    - dentro de uma declaracao de uma constante representa sucessivas numeros inteiros nao tipados
+   
+   // exemplo de uso
+    const (
+	x = iota * 10
+	_
+	z
+    )
+
+
+### Deslocamento de bits
+    - 

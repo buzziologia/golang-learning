@@ -6,6 +6,13 @@
  ele avalia questoes e executa de cima pra baixo e todas que estiverem corretas tbm.
 */
 
+// agrupamento de dados
+// array, slices
+
+// slices é criado com um número fixo de elementos, so posso adicionar um novo elemento com um append ou len(slice) + 1
+
+// como fatiar um slice
+
 package main
 
 import (
@@ -13,19 +20,8 @@ import (
 )
 
 func main() {
-	x := 10
+	sabores := []string{"calabresa", "margherita", "abacaxi", "mozzarela"}
+	fatia := sabores[2 : len(sabores)-1]
 
-	switch true {
-	case x < 5:
-		fmt.Println("x é menor que ")
-	case x == 5:
-		fmt.Println("x é igual a 5")
-	case x > 5:
-		fmt.Println("x é maior que 5")
-	}
-
-	if (x == 5) == true {
-		fmt.Println("x é igual a 5")
-	}
-
+	fmt.Println(fatia)
 }
